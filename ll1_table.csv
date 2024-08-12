@@ -1,0 +1,6 @@
+, id, +, *, (, ), $
+E, E -> T E', , , E -> T E', , ,
+E', , E' -> + T E', , , E' -> empty, E' -> empty,
+T, T -> F T', , , T -> F T', , ,
+T', , T' -> empty, T' -> empty, T' -> * F T', , T' -> empty,
+F, F -> id, , , F -> ( E ), ,
